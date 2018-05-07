@@ -1,7 +1,12 @@
 body {
-    background:rgba(104, 123, 231, 0.74);
+    background:rgba(83, 175, 228, 0.774);
     font-family:helvetica;
 }
-h1 {
-    color: green;
+h1,h2 {
+    color: rgba(54, 54, 54, 0.932);
+}
+p {
+background: grey;
+color: black;
+padding: 8px;
 }
