@@ -6,7 +6,7 @@ h1,h2 {
     color: rgba(54, 54, 54, 0.932);
 }
 p {
-background: grey;
+background: rgba(85, 81, 81, 0.438);
 color: black;
 padding: 8px;
 }
