@@ -2,7 +2,10 @@ body {
     background:rgba(83, 175, 228, 0.774);
     font-family:helvetica;
 }
-h1,h2 {
+h1 {
+    color: rgb(15, 56, 15);
+}
+h2 {
     color: rgba(54, 54, 54, 0.932);
 }
 p {
