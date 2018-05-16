@@ -1,18 +1,43 @@
+/*Grid*/
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.container {
+margin: 0,auto;
+padding-left: 30px;
+padding-right: 30px;
+max-width: 1300px;
+width: 100%;
+}
+.footer{
+    padding-left: 10px;
+}
 body {
-    background:rgba(164, 222, 255, 0.774);
-    }
-h1 {
-    color: rgb(15, 56, 15);
-    text-align: center;
-    font-family:helvetica;
+    background-color: #5076b1;
+    background-image: href="assets/texture.png"
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-h2 {
-    color: rgba(54, 54, 54, 0.932);
-    font-style: italic;
+/*Typography*/
+.pagetitle {
+    font-family: 'Michroma', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.699);
+    text-align:center
+    
 }
-p {
-background: rgba(175, 175, 175, 0.425);
-color: black;
-padding: 8px;
-font-family: sans-serif;
+.subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: rgb(17, 37, 18);
+}
+.bodytext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 50;
+    color: rgb(17, 37, 18);
 }
