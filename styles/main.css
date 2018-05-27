@@ -4,8 +4,7 @@
 padding: 1rem 0 5rem;
 }
 .header-image {
-  width: 20%;
-  height: auto;
+max-width: 40%;
 }
 /* Sections
 -----------------------------------*/
@@ -19,27 +18,28 @@ padding: 1rem 0 5rem;
   background-image: url('../images/title-image.jpg');
   background-size: cover;
   color: white;
-
 }
-/* Image Alignment
------------------------------------*/
-.center {
-  float: center;
-}
-
 /* Mobile first queries */
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+.title{
+  padding: 10rem;
+}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .title{
+    padding: 15rem;
+  }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
