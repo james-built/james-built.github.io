@@ -1,4 +1,22 @@
-.test
-{
-  color: black;
+/* Header & Footer
+-----------------------------------*/
+.header {
+padding: 10rem 0 10rem;
+}
+.footer {
+padding: 10rem 0 10rem;
+}
+/* Sections
+-----------------------------------*/
+.section {
+  padding: 5rem 0 5rem;
+  text-align: center;
+}
+/* Title Page
+-----------------------------------*/
+.title {
+  background-image: url('../images/title-image.jpg');
+  background-size: cover;
+  color: white;
+
 }
