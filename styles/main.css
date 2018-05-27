@@ -18,16 +18,18 @@ max-width: 40%;
   background-image: url('../images/title-image.jpg');
   background-size: cover;
   color: white;
+  padding: 20rem 0;
 }
-/* Mobile first queries */
 
+/* Mobile first queries
+-----------------------------------*/
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
 .title{
-  padding: 10rem;
+  padding: 10rem 0;
 }
 }
 
@@ -37,7 +39,7 @@ max-width: 40%;
 /* Larger than desktop */
 @media (min-width: 1000px) {
   .title{
-    padding: 15rem;
+    padding: 15rem 0;
   }
 }
 
