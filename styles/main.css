@@ -6,6 +6,14 @@ padding: 1rem 0 5rem;
 .header-image {
 max-width: 40%;
 }
+/* Shared Styles
+-----------------------------------*/
+.image-subtitle {
+  font-family: 'Roboto', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 2px grey;
+
+}
 /* Sections
 -----------------------------------*/
 .section {
@@ -33,6 +41,10 @@ max-width: 40%;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+.blog-image {
+  width: 100%;
+  height: auto;
+}
 /* Background Images
 -----------------------------------*/
 .title {
@@ -41,7 +53,7 @@ max-width: 40%;
   color: white;
   font-family: 'Shrikhand', cursive;
 }
-.blog-image {
+.blog-background {
   background-image: url('../images/blog-image.jpg');
   background-size: cover;
   color: white;

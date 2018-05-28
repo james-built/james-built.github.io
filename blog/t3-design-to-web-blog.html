@@ -56,7 +56,7 @@
                 <ul>
                   <a href="t2-html-css-dom-p1.html"><li>HTML, CSS & DOM pt.1</li></a>
                   <a href="t2-html-css-dom-p2.html"><li>HTML, CSS & DOM pt.2</li></a>
-                  <a href="t3-design-to-web-blog.html"><li>Design to Web</li></a>
+                  <li>Design to Web</li>
                 </ul>
               </li>
 
@@ -71,12 +71,90 @@
     <div class="container blog-post">
       <div class="row">
         <div class="twelve columns">
-          <h3>Blog Title</h3>
+          <h3>Responsive Websites</h3>
         </div>
       </div>
       <div class="row blog-text">
         <div class="twelve columns">
-          <p>Blog content is posted here</p>
+          <h4>What is a responsive website and why is responsiveness important?</h4>
+          <p>
+            Before smartphones and other smaller screen devices became a popular way to browse the internet websites were designed
+            with the intention of being displayed on your computer screen, and most of those were pretty similar in size. This meant
+            that when coding a website you didn't have to be very concerned with how it might look if someone was to try view it on
+            a smaller screen. With the direction technology has taken however, there is now a huge distribution of different devices
+            that people use to access the internet. Smartphones among them have quickly become the predominant way many people browse.
+            <br><br>
+            Without accounting for the different size screens your site will be displayed on while you are coding it you could find
+            yourself in the situation where it is incredibly ugly or just plain unsuable for the majority of people accessing it.
+            Designing a "responsive" site is the solution to this problem. A responsively designed website will resize & reposition
+            its content depending on the size of screen it is being displayed on and also the type of input, whether it is touch or
+            mouse & keyboard. There are coding techniques that allow you to do this but more importantly it requires that you are mindful
+            of these different configurations of your website right from the outset to make sure your site is well designed for all users.
+          </p>
+          <h4>What is mobile first design, and why is it important?</h4>
+          <p>
+            Mobile first design is the design approach of starting with the layout of your website on a mobile screen size first and then scaling
+            up from there once you are satisfied with how it looks at that size. This is a useful design process as it constrains your
+            design, forcing you to focus on the really important aspects of your design and get those right. You're far more likely
+            to create a clean, good looking design if you work in this way. It's also easier to add content to fill the white space when you scale
+            your website up to a larger size than it is to eliminate things from an already completed layout when trying to fit to a smaller screen.
+          </p>
+          <h4>What are frameworks, why are they useful and what are their drawbacks?</h4>
+          <p>
+            A design framework is a pre-made coding structure which has been created in order to build the sort of features that developers commonly
+            want to include. By using a framework you can save a lot of time that you would have spent setting out the basic structure of your site
+            before you can start producing the more bespoke elements of it. This is an obvious benefit of using a framework but I can see other benefits
+            exist too. If you're using a commonly known framework another developer could more easily add features to your project without first having
+            to spend as much time learning what system you had implemented to solve these basic issues.
+            <br><br>
+            That's not to say there isn't value in creating your own framework however. Doing so gives you a better understanding of how the code works
+            as well as building your knowledge of CSS properties you might not have otherwise had to engage with, quite useful when you are a beginner
+            like I am now.
+          </p>
+          <h4>What is a wireframe and why would you use one?</h4>
+          <p>
+            A wireframe is a simplistic mockup of your site, limited in detail so you can quickly get an idea of the visual impact and functionality
+            of your site without getting distracted by the detail of more intricate design details. It's a tool worth using as it's fast and easy
+            to do and may give you some insight into your design that you could not have gained by simply visualising it in your mind.
+
+            These are the wireframes I produced when designing the site you're on right now:
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <img class ="blog-image" src="../images/wireframe-index-page-desktop.jpg" alt="desktop home page">
+          <p class="image-subtitle">Desktop Home Page</p>
+        </div>
+        <div class="six columns">
+          <img class ="blog-image" src="../images/wireframe-index-page-mobile.jpg" alt="mobile home page">
+          <p class="image-subtitle">Mobile Home Page</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <img class ="blog-image" src="../images/wireframe-blog-page-desktop.jpg" alt="desktop blog page">
+          <p class="image-subtitle">Desktop Blog Page</p>
+        </div>
+        <div class="six columns">
+          <img class ="blog-image" src="../images/wireframe-blog-page-mobile.jpg" alt="mobile blog page">
+          <p class="image-subtitle">Mobile Home Page</p>
+        </div>
+      </div>
+      <div class="row blog-text">
+        <div class="twelve columns">
+          <h4>What aspects of these wireframes were difficult to implement?</h4>
+          <p>
+            I found it difficult to implement my blog navigation element in a way I was happy with. As I had conceived of it I was quite sure I would need
+            to use some javascript in order to produce it, eventually I wanted to have a scrollable navigation timeline that would change what was
+            displayed in the content box below. I did think I would be able to produce a decent substitute for this using HTML & CSS however eventually
+            I simply settled on a list of my links.
+            <br><br>
+            The other aspect I struggled to implement was the home page navigation bar from my mobile site layout. I wanted this to appear from a button
+            to the top right, as this is a common navigation device for mobile phones that people are familiar with. The idea was that once you passed into
+            desktop widths these would split out into individual buttons that would be displayed along the top. I'm still hopeful I will find a solution
+            for this that doesn't use javascript but for now this is another feature of my design that isn't implemented.
+          </p>
         </div>
       </div>
     </div>
