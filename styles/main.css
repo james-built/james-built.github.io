@@ -12,7 +12,11 @@ max-width: 40%;
   font-family: 'Roboto', cursive;
   text-align: center;
   text-shadow: 1px 1px 2px grey;
-
+}
+.blog-nav {
+  font-family: 'Roboto', cursive;
+  text-align: left;
+  text-shadow: 1px 1px 2px grey;
 }
 /* Sections
 -----------------------------------*/
