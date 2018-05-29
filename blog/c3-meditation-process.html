@@ -50,13 +50,13 @@
                   <a href="c1-reflection-blog.html"><li>C1 Reflection</li></a>
                   <a href="c1-time-and-habits-blog.html"><li>C1 Time & Habits</li></a>
                   <a href="c2-emotional-intelligence.html"><li>C2 Emotional Intelligence</li></a>
-                  <a href="c3-meditation-process.html"><li>C3 Meditation & Mindfulness</li></a>
+                  <li>Meditation & Mindfulness</li>
                 </ul>
               </li>
               <li>Technical Blogs
                 <ul>
                   <a href="t2-html-css-dom-p1.html"><li>HTML, CSS & DOM pt.1</li></a>
-                  <li>HTML, CSS & DOM pt.2</li>
+                  <a href="t2-html-css-dom-p2.html"><li>HTML, CSS & DOM pt.2</li></a>
                   <a href="t3-design-to-web-blog.html"><li>Design to Web</li></a>
                 </ul>
               </li>
@@ -72,48 +72,43 @@
     <div class="container blog-post">
       <div class="row">
         <div class="twelve columns">
-          <h3>Technical Blog Part 2</h3>
+          <h3>Meditation & Mindfulness</h3>
         </div>
       </div>
       <div class="row blog-text">
         <div class="twelve columns">
-            <h4>What is grid based design?</h2>
-                <p>
-                    Grid based design is laying out the content of your webpage onto a grid consisting of columns and rows. There are
-                    a number of advantages to working in this way, visually it makes your content easier to read, it can also make it quicker to get a basic
-                    layout of your page put together which you can then refine later on.
-                </p>
-            <h4>What's all the hype about responsive webpages?</h2>
-                <p>
-                    As technology has evolved the number of ways people access and interact with webpages has also changed. Because
-                    it is now common for people to access webpages on mobile devices it has become important to build webpages in a way that they
-                    will account for different viewing sizes and resize/rearrange themselves so that they are still well presented no matter what they
-                    are being viewed on. When designing a webpage you want to ensure as many users as possible have a good experience on it, this is why
-                    there is so much buzz around responsive web design.
-                </p>
-            <h4>What is semantic structure?</h2>
-                <p>
-                    Semantic structure means writing your HTML code in a way that conveys meaning to a reader rather than simply presenting
-                    as you intend in a web browser. This is useful both for humans reading your code and wanting to understand the intention behind the different
-                    elements and also for machines to categorise the different types of information you have put on your page. A consequence of this is that you
-                    should use HTML tags to label content correctly regardless of how the browser may present that tag and should then use CSS to ensure the tag content
-                    is presented on the page as you would like.
-                </p>
-            <h4>What is CSS specificity?</h2>
-                <p>
-                    CSS works by having a series of style rules which "cascade" down the page. The meaning of this is that a style rule earlier in the stylesheet
-                    can be overwritten later on if another overlapping style rule is created. Another important factor to consider is the "specificity weight" of
-                    a CSS selector. Type, Class, and ID selectors each have a different specificity weight, ascending in that same order. This means if you use
-                    an ID selector to apply a style higher up in your CSS sheet, then later on use a Type selector to apply a style that would ordinarily overlap
-                    it, the ID selector will still prevail. These weights are also additive, so when you combine selectors their two specificity weights are added
-                    together. This means you have to be careful when combining selectors that you do not accidentally break the intended hierarchy of your styles.
-                </p>
+          <h4>Process over product</h4>
+          <p>
+            I think I engaged with this sprint in a way that allowed me to effectively tackle some concepts that were
+            entirely new to me without getting too concerned with gaining complete mastery of them. Instead I tried to
+            get a good enough understanding of the UI design concepts I was being taught to begin my own redesign and
+            looked for additional resources when I thought it would help.
+            <br><br>
+            Being reminded of this concept also helped when I ran into problems with how my site was presenting on
+            mobile devices. I discovered that my site would appear one way when shown in a browser at a mobile width
+            but would appear differently when I actually viewed it on a mobile device. Instead of being focused on how
+            my site looked and what I might do to improve it, I referred back to what I had been taught about the browser
+            developer tools, the DOM & CSS structure. Using those I was able to see that styling appeared to be applied
+            correctly to my site and eventually discovered that I was missing a simply meta tag in the header of my site
+            to specify how it would be rendered on mobile devices. This whole process was a great learning experience
+            and I feel like I have a much better understanding of CSS having gone through it.
+          </p>
+          <h4>Reflections on "Search Inside Yourself" chapter 2</h4>
+          <p>
+            Before reading this chapter of the book I had thought meditation was a very useful but also very enjoyable
+            exercise to engage with. I had found it to be a really great way to regulate stress and negative emotions
+            but I hadn't really thought of it as having produced positivity in and of itself. Reading the evidence
+            presented in the book to back this up was really encouraging and made me determined to make meditation
+            an even greater priority in my life. The suggestion that meditation can also have lasting physical effects
+            on your body is also fascinating, it reminded me of some other articles I've read on the enteric nervous
+            system and shows how surprising the connections between the brain and the body can be.
+          </p>
         </div>
       </div>
     </div>
   </div>
   
-    <footer class="section">
+  <footer class="section">
       <div class="container">
         <div class="row">
           <div class="twelve columns">
@@ -179,6 +174,6 @@
             <p>&copy; James Built 2018</p>
           </div>
       </div>      
-    </footer>
+  </footer>
 </body>
 </html>
