@@ -61,7 +61,7 @@
                   <a href="t2-html-css-dom-p2.html"><li>HTML, CSS & DOM pt.2</li></a>
                   <a href="t3-design-to-web-blog.html"><li>Design to Web</li></a>
                   <a href="t4-javascript-basics.html"><li>JavaScript Basics</li></a>
-                  <li>Problem Solving</li>
+                  <li>Problem Solving </li>
                 </ul>
               </li>
 
@@ -76,12 +76,54 @@
     <div class="container blog-post">
       <div class="row">
         <div class="twelve columns">
-          <h3>Blog Title</h3>
+          <h3>Problem Solving</h3>
         </div>
       </div>
       <div class="row blog-text">
         <div class="twelve columns">
-          <p>Blog content is posted here</p>
+          <h4>Becoming blocked on a problem</h4>
+          <p>
+            A problem I came across in my programming learning so far was when I had redesigned this site to make use of a responsive framework
+            and had set up some media queries that were supposed to alter the layout once my window reached mobile device width. I discovered
+            that in my desktop browser it would look fine and would resize appropriately once I had decreased the window size to the specified
+            pixel width but when I tried to view the site on my phone it looked horrible and was unreadable! To solve this problem I used a troubleshooting
+            approach, I carefully looked through the developer tools at what styles were being applied to the elements at the various widths. I was able
+            to compare these to a working example website and discovered that my styles were being applied in the correct manner as they were on that site.
+            Now I knew that the problem had to be some other missing element in my code that was controlling the display. This helped guide me
+            in a web search which quickly lead to the discovery that I was missing a meta tag for "viewport" that would specify the viewport width to be
+            the width of the device. After applying this meta tag my website displayed correctly, a very satisfying result, especially since I had found it
+            a little frustrating not understanding why my website was displaying differently with seemingly the same code as the example.
+            <br><br>
+            This turned out to be quite a good learning experience. It taught me a lot about how to use the developer tools to see where styles are inherited from
+            and helped cement my knowledge of the cascading nature of CSS. It also taught me about how mobile browsers render and scale web pages and therefore why
+            the viewport tag is important to have.
+          </p>
+          <h4>Solving with elegance</h4>
+          <p>
+            In this early stage of learning to program I'm beginning to understand how valuable simplicity is in code. It helps the program run efficiently
+            and also can make it easier to modify it in future to change the output. I still think I have a lot to work on as far as coding solutions that are
+            "DRY" but I was pleased with my approach to the chessboard coding problem in chapter 2 of the book "Eloquent JavaScript". To solve this problem I realised
+            I would need to print a line "n" number of times and each line would need to contain "n" characters. I also realised that to produce a chessboard each line
+            would have to have an alternating start character depending on if it was an odd or even line. I then created an outer loop that would run for how ever
+            many rows I wanted my board to have and for each row it would run a conditional statement to check if it was an odd or an even row. For an odd row it ran
+            one version of the loop and for an even row it ran another.
+            <br><br>
+            This was a relatively efficient way of solving the problem but I would still have liked to have refined this further.
+          </p>
+          <h4>Reflections</h4>
+          <p>
+            I feel like I am building confidence with pseudocoding as a method of working out an approach to a coding problem and also troubleshooting where my code
+            is going wrong. I think for now I should probably actually write down my pseudocode as this will make it easier for me to analyse my approach to problems
+            and perhaps see where I can be more "DRY" in my code. I have also been pretty effective so far at debugging my code by looking at the error messages
+            returned in the console and also using the console to log the output of my code to see how it is processed. Googling is a resource I turn to often and
+            I have made the effort to learn search operators to get even better at targetting the information I need to solve problems, putting these into practice
+            is a work in progress!
+            <br><br>
+            I think I can improve on using the knowledge of my peers and teachers to solve problems and also gain a different perspective on how to approach them.
+            For the "fizzbuzz" problem I did search up some alternative solutions after I had completed mine and found some impressive solutions. This caused me to
+            reflect on some of the limitations of my approach such as the repeated elements of the code making it more time consuming to repurpose if the tests
+            were to change. This was a really useful lesson so I was glad for having spent the time reflecting on my solution.
+          </p>
         </div>
       </div>
     </div>
