@@ -18,6 +18,9 @@ max-width: 40%;
   text-align: left;
   text-shadow: 1px 1px 2px grey;
 }
+.list-heading {
+  font-weight: bold;
+}
 /* Sections
 -----------------------------------*/
 .section {
