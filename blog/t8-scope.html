@@ -53,7 +53,7 @@
                   <a href="c3-meditation-process.html"><li>C3 Meditation & Mindfulness</li></a>
                   <a href="c4-daily-mindfulness.html"><li>C4 Daily Mindfulness</li></a>
                   <a href="c5-self-confidence.html"><li>C5 Self Confidence</li></a>
-                  <li>C6 Control</li>
+                  <a href="c6-control.html"><li>C6 Control</li></a>
                   <a href="c7-motivation.html"><li>C7 Motivation</li></a>
                 </ul>
               </li>
@@ -65,7 +65,7 @@
                   <a href="t4-javascript-basics.html"><li>JavaScript Basics</li></a>
                   <a href="t5-problem-solving.html"><li>Problem Solving</li></a>
                   <a href="t6-js-language.html"><li>JavaScript Language</li></a>
-                  <a href="t8-scope.html"><li>JavaScript Scope</li></a>
+                  <li>JavaScript Scope</li>
                 </ul>
               </li>
             </ul>
@@ -79,23 +79,27 @@
     <div class="container blog-post">
       <div class="row">
         <div class="twelve columns">
-          <h3>Emotional Control</h3>
+          <h3>JavaScript Scope</h3>
         </div>
       </div>
       <div class="row blog-text">
         <div class="twelve columns">
-          <h4>What are some of my triggers when programming?</h4>
+          <h4>What is "scope" and how does it work in JavaScript?</h4>
           <p>
-            It's still early in my learning but I've found I get particularly frustrated with spelling mistakes in my code causing errors. I have a strong
-            response when I see that my logic is correct but the code hasn't worked because of an erroneous "u". I think this response is probably rooted
-            in my earlier education and enjoyment of language, leading me to become frustrated at American English as lazy. Rationally I can see that
-            this view should be disconnected from the practice of coding as I am actually learning entirely new languages here which simply borrow
-            symbols from languages I know but it takes some effort to reach that acceptance!
-          </p>
-          <h4>How did I find the <strong>S</strong>iberian <strong>N</strong>orth <strong>R</strong>ail<strong>R</strong>oad exercise? </h4>
-          <p>
-            I found it difficult to use this disconnected from an emotional trigger. I will have to remember to try this next time I experience one however
-            and see how it compares to my experience using it when reflecting on a previous emotional response.
+            When discussing scope in JavaScript what you are talking about is the visibility of the variables throughout your code.
+            This is an important concept as it affects which variables are able to be used in what part of your code. An analogy which
+            may help explain the operation of scope in JavaScript would be to imagine a series of one-way mirrors lined up in a row.
+            The global scope is the outermost layer of these mirrors and faces the reflective side so it can only see itself, as you
+            step down into the local scopes contained within it, it is like you are stepping in between mirrors further down this chain.
+            Looking back towards the global scope you are peering through the clear side of the mirror and can see any local scopes between
+            yourself and the global however if you were to look further down the chain those scopes would not be visible to you. The term
+            for this type of scope is "lexical scoping".
+            <br><br>
+            An advantage of scope working in this way is that it provides some isolation between your functions, variables that are declared
+            within a function are local to that function and additionally each time that function is called a new instance of those variables
+            is created. This is a useful property as when you are building functions to be reusable throughout your code you don't have to
+            be concerned of conflicts between your variable values. If a local scope does reuse the same variable name as one declared in
+            the global scope it is the local scope variable which trumps the global scope variable.
           </p>
         </div>
       </div>
