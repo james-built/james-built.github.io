@@ -7,7 +7,8 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js', //default value so not strictly needed anymore
   output: {
-    filename: 'bundle.[hash].js'
+    filename: 'bundle.[hash].js',
+    publicPath: '/'
   },
   devtool: 'inline-source-map',
   module: { //configure the modules the application will include
@@ -36,6 +37,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: 'public/index.html',
       favicon: 'public/favicon.ico'
@@ -45,6 +47,7 @@ module.exports = {
     host: 'localhost',
     port: port,
     historyApiFallback: true,
-    open: true //opens browser and launches application automatically
+    open: true, //opens browser and launches application automatically
+    hot: true
   }
 }
