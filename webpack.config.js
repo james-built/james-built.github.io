@@ -42,7 +42,7 @@ module.exports = {
     })
   ],
   devServer: {
-    host: 'localshost',
+    host: 'localhost',
     port: port,
     historyApiFallback: true,
     open: true //opens browser and launches application automatically

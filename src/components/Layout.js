@@ -1,15 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Header, Container, Divider, Icon } from 'semantic-ui-react';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Header, Container, Divider, Icon } from 'semantic-ui-react'
 
-import { pullRight, h1 } from './layout.css';
+import { pullRight, h1 } from './layout.css'
 
 const Layout = ({ children }) => {
   return (
     <Container>
       <Link to="/">
         <Header as="h1" className={h1}>
-          webpack-for-react
+          Test page
         </Header>
       </Link>
       {children}
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         Made with <Icon name="heart" color="red" /> by Esau Silva
       </p>
     </Container>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

@@ -3,6 +3,7 @@ import { Switch, BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Home from './Home'
 import NoMatch from './NoMatch'
+import DynamicPage from './DynamicPage'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <div>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/dynamic' component={DynamicPage} />
           <Route component={NoMatch} />
         </Switch>
       </div>
