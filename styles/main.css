@@ -1,7 +1,9 @@
 /* Header & Footer
 -----------------------------------*/
-.header {
-padding: 1rem 0 5rem;
+header {
+padding: 1rem 0 1rem;
+display: flex;
+justify-content: center;
 }
 .header-image {
 max-width: 40%;
