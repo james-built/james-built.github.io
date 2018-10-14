@@ -20,6 +20,9 @@ max-width: 40%;
   text-align: left;
   text-shadow: 1px 1px 2px grey;
 }
+.nav-heading {
+  text-align: center;
+}
 .list-heading {
   font-weight: bold;
 }
